@@ -1,0 +1,25 @@
+score = int(input())
+if score >90:
+    grade = "A"
+elif score >70:
+    grade = "B"
+elif score >50:
+    grade = "C"
+else:
+    grade = "D"
+
+print(grade)
+
+#if and else statements using
+
+score = int(input())
+if score >90:
+    grade = "A"
+else:
+    if score >70:
+        grade = "B"
+    else:
+        if score >50:
+            grade = "C"
+        else:
+            grade = "D"
